@@ -24,6 +24,7 @@
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,
     "skipLibCheck": true,
+    "allowImportingTsExtensions": true,
     "vueCompilerOptions": {
       "target": 3.3
     }
