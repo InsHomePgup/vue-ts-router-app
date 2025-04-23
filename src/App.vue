@@ -7,6 +7,7 @@
         </section>
 
         <button @click="openPath('/')">open home</button>
+        <button @click="openPath('/user/2')">open user</button>
 
         <nav>
             <RouterLink to="/">Go to Home</RouterLink>

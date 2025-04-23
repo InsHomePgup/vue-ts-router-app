@@ -7,7 +7,7 @@ import UserView from '@/pages/user.vue'
 const routes = [
     { path: '/', component: HomeView },
     { path: '/about', component: AboutView },
-    { path: '/user', component: UserView },
+    { path: '/user/:id', component: UserView },
 ]
 
 const router = createRouter({
