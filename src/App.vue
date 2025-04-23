@@ -1,28 +1,7 @@
 <template>
     <div>
-        <h1>Hello vue-router</h1>
-
-        <section>
-            section
-        </section>
-
-        <button @click="openPath('/')">open home</button>
-        <button @click="openPath('/user/2')">open user</button>
-
-        <nav>
-            <RouterLink to="/">Go to Home</RouterLink>
-            <RouterLink to="/about">Go to About</RouterLink>
-            <RouterLink to="/user">Go to User</RouterLink>
-
-            <RouterLink to="/user">
-                <div style="width:100px;height:100px; background-color: deepskyblue;display: inline-flex;justify-content: center; align-items: center; border-radius: 8px;">
-                    Go to User
-                </div>
-            </RouterLink>
-        </nav>
-        <main>
-            <RouterView></RouterView>
-        </main>
+        <!-- 移除了原有的导航和标题，因为它们现在在布局组件中 -->
+        <RouterView></RouterView>
     </div>
 </template>
 
@@ -42,5 +21,5 @@ function openPath(path:string){
 </script>
 
 <style scoped>
-
+/* 可以添加全局样式 */
 </style>
